@@ -1,3 +1,1 @@
-# JavaScriptBasic
- 
 dz2
