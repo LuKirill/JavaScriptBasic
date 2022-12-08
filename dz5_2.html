@@ -38,7 +38,7 @@
     console.log(document.querySelectorAll(".dropdown-item"));
     const dropDownItem = document.querySelectorAll(".dropdown-item");
     dropDownItem.forEach(element => {
-      element.classList.add("super-dropdown")
+      element.classList.add("super-dropdown");
     });
     /*
     2. У элемента с классом btn необходимо убрать класс "btn-secondary", если он
@@ -65,7 +65,7 @@
      */
     const divDropDown = document.querySelector('div.dropdown');
     divDropDown.insertAdjacentHTML('afterend', '<a href="#">link</a>');
-    console.log(document.querySelector('body'));
+    console.log(document.body);
 
     /*
     5. У элемента с id "dropdownMenuButton" замените id на "superDropdown".
@@ -98,8 +98,8 @@
      */
     const btnAttr = document.querySelector('.btn.dropdown-toggle').attributes;
     for (const i of btnAttr) {
-      console.log(`Атрибут '${i.name}' содержит значение  '${i.value}'`)
-    };
+      console.log(`Атрибут '${i.name}' содержит значение  '${i.value}'`);
+    }
     console.log(btnAttr);
 
   </script>
